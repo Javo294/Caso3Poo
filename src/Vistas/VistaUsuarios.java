@@ -1,4 +1,4 @@
-package Clases;
+package Vistas;
 
 import java.awt.EventQueue;
 

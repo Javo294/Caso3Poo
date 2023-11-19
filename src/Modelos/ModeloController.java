@@ -1,13 +1,11 @@
-package Clases;
+package Modelos;
 
-public class Controller {
+public class ModeloController {
 	boolean validarUsuario() {
-		return 1;
+		return true;
 	}
 	
 	void ingresarCliente() {
 		
 	}
-	
-	
 }

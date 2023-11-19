@@ -1,6 +1,6 @@
-package Clases;
+package Modelos;
 
-public class Moderador {
+public class ModeloModerador {
 	String agricultor;
 	String user;
 	
@@ -15,5 +15,4 @@ public class Moderador {
 	void reportar() {
 		
 	}
-	
 }

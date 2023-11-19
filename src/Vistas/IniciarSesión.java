@@ -1,4 +1,6 @@
-package Clases;
+package Vistas;
+
+import Controladores.BaseDatos;
 
 import java.awt.EventQueue;
 
@@ -10,6 +12,8 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 
 public class IniciarSesión extends JFrame {
+	
+	
 	
 	String usuario;
 	String password;
@@ -23,6 +27,8 @@ public class IniciarSesión extends JFrame {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		BaseDatos bd = new BaseDatos();
+		bd.conectarbase();
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {

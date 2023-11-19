@@ -1,6 +1,6 @@
-package Clases;
+package Modelos;
 
-public class User {
+public class ModeloUsuarios {
 	String nombre;
 	String usuario;
 	String password;

@@ -1,6 +1,6 @@
-package Clases;
+package Modelos;
 
-public class Agricultor {
+public class ModeloAgricultor {
 	String nombre;
 	int ganancia;
 	int valor;
